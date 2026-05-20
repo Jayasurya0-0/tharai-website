@@ -1,0 +1,6 @@
+{
+  "name": "THARAI",
+  "description": "Premium luxury Indian craft brand focused on handmade Athangudi tiles from Chettinad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
