@@ -30,7 +30,7 @@ const About = () => {
                     <div className="relative">
                         <div className="aspect-[3/4] rounded-[48px] overflow-hidden shadow-2xl hero-mask">
                              <img 
-                                src="/src/assets/images/tharai_tile_craftsmanship_1779180613274.png" 
+                                src="/images/tharaitilecraftsmanship1779180613274.png" 
                                 className="w-full h-full object-cover" 
                                 alt="Heritage Craftsmanship"
                                 referrerPolicy="no-referrer"
@@ -116,10 +116,10 @@ const About = () => {
                     </div>
                     <div className="lg:col-span-8 grid grid-cols-2 gap-6">
                          <div className="aspect-[3/4] rounded-[32px] overflow-hidden mt-12 bg-sand shadow-lg">
-                             <img src="/src/assets/images/tharai_tile_pattern_1_1779180632584.png" className="w-full h-full object-cover grayscale" alt="Artisan detail" referrerPolicy="no-referrer" />
+                             <img src="/images/tharaitilepattern11779180632584.png" className="w-full h-full object-cover grayscale" alt="Artisan detail" referrerPolicy="no-referrer" />
                          </div>
                          <div className="aspect-[3/4] rounded-[32px] overflow-hidden bg-burnt-clay shadow-lg">
-                             <img src="/src/assets/images/tharai_modern_living_tiles_1779180651977.png" className="w-full h-full object-cover" alt="Artisan detail" referrerPolicy="no-referrer" />
+                             <img src="/images/tharaimodernlivingtiles1779180651977.png" className="w-full h-full object-cover" alt="Artisan detail" referrerPolicy="no-referrer" />
                          </div>
                     </div>
                 </div>

@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="w-48 flex-shrink-0">
           <Link to="/" className="flex items-center group">
             <img 
-              src="/src/assets/images/tharai_official_logo_full_1779186983216.png" 
+              src="/images/tharaiofficiallogofull1779186983216.png" 
               alt="THARAI" 
               className="h-8 md:h-10 w-auto object-contain transition-transform duration-500 group-hover:scale-105" 
               referrerPolicy="no-referrer"

@@ -14,7 +14,7 @@ const Cart = () => {
             size: "10x10 inches",
             price: 180,
             quantity: 450,
-            img: "/src/assets/images/tharai_tile_pattern_1_1779180632584.png"
+            img: "/images/tharaitilepattern11779180632584.png"
         },
         {
             id: 2,

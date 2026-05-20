@@ -4,12 +4,12 @@ import { Filter, Grid, List, Search, Heart, ShoppingBag } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 
 const products = [
-  { id: 1, name: "Kumbakonam Classic", category: "Traditional", size: "10x10", color: "#A44A3F", price: "Starting ₹180 /sqft", img: "/src/assets/images/Tile/IMG (1).jpeg" },
-  { id: 2, name: "Chettinad Floral", category: "Classic", size: "8x8", color: "#C89B3C", price: "Starting ₹220 /sqft", img: "/src/assets/images/Tile/IMG (1).jpg" },
-  { id: 3, name: "Indigo Lattice", category: "Modern", size: "12x12", color: "#3E4E6D", price: "Starting ₹250 /sqft", img: "/src/assets/images/Tile/IMG (1).png" },
-  { id: 4, name: "Terracotta Earth", category: "Minimal", size: "10x10", color: "#C56B52", price: "Starting ₹190 /sqft", img: "/src/assets/images/Tile/IMG (1).webp" },
-  { id: 5, name: "Oxide Moss", category: "Heritage", size: "8x8", color: "#5F6B50", price: "Starting ₹210 /sqft", img: "/src/assets/images/Tile/IMG (2).jpg" },
-  { id: 6, name: "Royal Mandala", category: "Intricate", size: "12x12", color: "#1B1B1B", price: "Starting ₹320 /sqft", img: "/src/assets/images/Tile/IMG (2).png" },
+  { id: 1, name: "Kumbakonam Classic", category: "Traditional", size: "10x10", color: "#A44A3F", price: "Starting ₹180 /sqft", img: "/images/tile/img1.jpeg" },
+  { id: 2, name: "Chettinad Floral", category: "Classic", size: "8x8", color: "#C89B3C", price: "Starting ₹220 /sqft", img: "/images/tile/img1.jpg" },
+  { id: 3, name: "Indigo Lattice", category: "Modern", size: "12x12", color: "#3E4E6D", price: "Starting ₹250 /sqft", img: "/images/tile/img1.png" },
+  { id: 4, name: "Terracotta Earth", category: "Minimal", size: "10x10", color: "#C56B52", price: "Starting ₹190 /sqft", img: "/images/tile/img1.webp" },
+  { id: 5, name: "Oxide Moss", category: "Heritage", size: "8x8", color: "#5F6B50", price: "Starting ₹210 /sqft", img: "/images/tile/img2.jpg" },
+  { id: 6, name: "Royal Mandala", category: "Intricate", size: "12x12", color: "#1B1B1B", price: "Starting ₹320 /sqft", img: "/images/tile/img2.png" },
 ];
 
 const Products = () => {

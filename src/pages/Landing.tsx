@@ -10,19 +10,19 @@ const slides = [
     title: "Handmade Heritage.",
     subtitle: "Chettinad Heritage ; Reimagined",
     desc: "Sustainable, earthen, and artistic Athangudi tiles that tell a story of 200 years.",
-    img: "/src/assets/images/tharai_hero_mansion_1779180591581.png"
+    img: "/images/tharaiheromansion1779180591581.png"
   },
   {
     title: "Artistic Earth.",
     subtitle: "Natural Pigments ; Hand Pressed",
     desc: "Every tile is a unique piece of art, crafted with local sand and mineral oxides.",
-    img: "/src/assets/images/tharai_courtyard_tiles_1779180880610.png"
+    img: "/images/tharaicourtyardtiles1779180880610.png"
   },
   {
     title: "Modern Legacy.",
     subtitle: "Traditional Craft ; Modern Spaces",
     desc: "Bringing Timeless South Indian design to contemporary luxury interiors.",
-    img: "/src/assets/images/tharai_dining_tiles_1779180899363.png"
+    img: "/images/tharaidiningtiles1779180899363.png"
   }
 ];
 
@@ -170,7 +170,7 @@ const Landing = () => {
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-[32px] shadow-2xl">
               <img
-                src="/src/assets/images/tharai_tile_craftsmanship_1779180613274.png"
+                src="/images/tharaitilecraftsmanship1779180613274.png"
                 className="w-full h-full object-cover"
                 alt="Athangudi Tile Craftsmanship"
                 referrerPolicy="no-referrer"
@@ -209,19 +209,19 @@ const Landing = () => {
               {
                 title: "Classic Earth",
                 desc: "Original terracotta and ochre palettes.",
-                img: "/src/assets/images/tharai_tile_pattern_1_1779180632584.png",
+                img: "/images/tharaitilepattern11779180632584.png",
                 color: "bg-terracotta/5"
               },
               {
                 title: "Teak & Indigo",
                 desc: "Modern contrasts with traditional roots.",
-                img: "/src/assets/images/regenerated_image_1779190234687.png",
+                img: "/images/regeneratedimage1779190234687.png",
                 color: "bg-indigo/5"
               },
               {
                 title: "Oxide Sage",
                 desc: "Muted greens inspired by Chettinad architecture.",
-                img: "/src/assets/images/regenerated_image_1779190316535.jpg",
+                img: "/images/regeneratedimage1779190316535.jpg",
                 color: "bg-oxide/5"
               }
             ].map((item, idx) => (
@@ -248,7 +248,7 @@ const Landing = () => {
       <section className="py-32 px-6 lg:px-12">
         <div className="max-w-7xl mx-auto rounded-[48px] bg-charcoal relative overflow-hidden p-12 md:p-24 text-center">
             <div className="absolute inset-0 z-0 opacity-20">
-                <img src="/src/assets/images/tharai_hero_mansion_1779180591581.png" className="w-full h-full object-cover grayscale" referrerPolicy="no-referrer" />
+                <img src="/images/tharaiheromansion1779180591581.png" className="w-full h-full object-cover grayscale" referrerPolicy="no-referrer" />
             </div>
             <div className="relative z-10 space-y-10">
                 <h2 className="text-5xl md:text-7xl text-ivory font-serif leading-tight">

@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tharai</title>
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var encodedPath = params.get('p');
+        if (!encodedPath) {
+          return;
+        }
+
+        var target = decodeURIComponent(encodedPath);
+        window.history.replaceState(null, '', target);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

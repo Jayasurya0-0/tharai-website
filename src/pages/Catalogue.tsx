@@ -75,7 +75,7 @@ const Catalogue = () => {
                 {/* Sample Request Section */}
                 <div className="mt-32 bg-charcoal text-ivory rounded-[48px] p-12 md:p-24 overflow-hidden relative">
                     <div className="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
-                         <img src="/src/assets/images/tharai_tile_pattern_1_1779180632584.png" className="w-full h-full object-cover" alt="Decorative Tile" />
+                         <img src="/images/tharaitilepattern11779180632584.png" className="w-full h-full object-cover" alt="Decorative Tile" />
                     </div>
                     <div className="max-w-2xl relative z-10 space-y-10 text-left">
                         <div className="space-y-4">

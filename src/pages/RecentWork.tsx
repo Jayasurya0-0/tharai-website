@@ -9,7 +9,7 @@ const projects = [
     location: "Karaikudi, TN",
     year: "2024",
     category: "Restoration",
-    img: "/src/assets/images/tharai_hero_mansion_1779180591581.png",
+    img: "/images/tharaiheromansion1779180591581.png",
     description: "A complete restoration of a 150-year-old mansion using 15,000 custom-made Athangudi tiles."
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     location: "Bangalore, KA",
     year: "2023",
     category: "Modern Residential",
-    img: "/src/assets/images/Tile/IMG (1).webp",
+    img: "/images/tile/img1.webp",
     description: "Integrating traditional oxide pigments into a brutalist concrete architecture."
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     location: "Puducherry",
     year: "2024",
     category: "Hospitality",
-    img: "/src/assets/images/Tile/IMG (1).jpg",
+    img: "/images/tile/img1.jpg",
     description: "Handcrafted mosaic patterns in indigo and ivory for a Mediterranean-meets-Tamil boutique stay."
   }
 ];

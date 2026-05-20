@@ -9,10 +9,10 @@ const Experience = () => {
     const fileInputRef = useRef<HTMLInputElement>(null);
 
     const tiles = [
-        { id: 1, name: "Heritage Terracotta", img: "/src/assets/images/tharai_tile_pattern_1_1779180632584.png" },
-        { id: 2, name: "Chettinad Blue", img: "/src/assets/images/Tile/IMG (1).jpeg" },
-        { id: 3, name: "Oxide Green", img: "/src/assets/images/Tile/IMG (1).jpg" },
-        { id: 4, name: "Monsoon Grey", img: "/src/assets/images/Tile/IMG (3).png" },
+        { id: 1, name: "Heritage Terracotta", img: "/images/tharaitilepattern11779180632584.png" },
+        { id: 2, name: "Chettinad Blue", img: "/images/tile/img1.jpeg" },
+        { id: 3, name: "Oxide Green", img: "/images/tile/img1.jpg" },
+        { id: 4, name: "Monsoon Grey", img: "/images/tile/img3.png" },
     ];
 
     const handleUpload = () => {
@@ -36,7 +36,7 @@ const Experience = () => {
                     <div className="absolute inset-0">
                         {isUploaded ? (
                              <img 
-                             src="/src/assets/images/tharai_modern_living_tiles_1779180651977.png" 
+                             src="/images/tharaimodernlivingtiles1779180651977.png" 
                              className="w-full h-full object-cover" 
                              alt="Interior Preview"
                              referrerPolicy="no-referrer"
